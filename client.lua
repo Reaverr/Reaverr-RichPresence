@@ -7,13 +7,13 @@ Citizen.CreateThread(function()
 
         SetDiscordAppId(Paste Your ID Here!)
 
-        SetRichPresence(GetPlayerName(source) .. " is standing on " .. GetStreetNameFromHashKey(GetStreetNameAtCoord(table.unpack(GetEntityCoords(player)))))
+        SetRichPresence(GetPlayerName(source) .. " is standing on " .. GetStreetNameFromHashKey(GetStreetNameAtCoord(table.unpack(GetEntityCoords(player))))) --[לא לשנות]
 
         SetDiscordRichPresenceAsset("שם התמונה הגדולה")
-        SetDiscordRichPresenceAssetText("Current Players: ".. GetNumberOfPlayers().. "/32")
+        SetDiscordRichPresenceAssetText("Current Players: ".. GetNumberOfPlayers().. "/32") --[לא לשנות]
 
         SetDiscordRichPresenceAssetSmall("שם התמונה הקטנה")
-        SetDiscordRichPresenceAssetSmallText("ID: ".. (GetPlayerServerId(source)))
+        SetDiscordRichPresenceAssetSmallText("ID: ".. (GetPlayerServerId(source))) --[לא לשנות]
 
     end
 end)
