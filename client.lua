@@ -3,7 +3,7 @@
 Citizen.CreateThread(function()
     while true do
         local player = GetPlayerPed(-1)
-        Citizen.Wait(5000)
+        Citizen.Wait(4000)
 
         SetDiscordAppId(Paste Your ID Here!)
 
