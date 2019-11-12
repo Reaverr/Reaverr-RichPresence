@@ -13,7 +13,7 @@ Citizen.CreateThread(function()
         SetDiscordRichPresenceAssetText("Current Players: ".. GetNumberOfPlayers().. "/32") --[לא לשנות]
 
         SetDiscordRichPresenceAssetSmall("שם התמונה הקטנה")
-        SetDiscordRichPresenceAssetSmallText("ID: ".. (GetPlayerServerId(source))) --[לא לשנות]
+        SetDiscordRichPresenceAssetSmallText("ID: ".. (GetPlayerServerId(PlayerId()))) --[לא לשנות]
 
     end
 end)
